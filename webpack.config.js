@@ -34,6 +34,9 @@ var common = {
         ]
     },
     resolve: {
+        alias: {
+            'react': path.join(__dirname, 'node_modules', 'react')
+        },
         extensions: ['', '.jsx', '.js'],
         modulesDirectories: [
             'node_modules',
